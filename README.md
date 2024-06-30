@@ -21,4 +21,4 @@ This project was developed with the assistance of ChatGPT, an AI language model 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/DISIC/design.numerique.gouv.fr/blob/master/LICENSE.md#licence-mit)) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/DISIC/design.numerique.gouv.fr/blob/master/LICENSE.md#licence-mit) file for details.
