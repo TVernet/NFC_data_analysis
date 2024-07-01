@@ -1,28 +1,19 @@
-# Path to all .nfc file.
-
+# Path to all .nfc file. 
+ 
 date_file_1 = ""
-file_path_1 = ""
+home_1_file_path = ""
  
 date_file_2 = ""
-file_path_2 = ""
- 
+home_2_file_path = ""
+
 date_file_3 = ""
-file_path_3 = ""
+home_3_file_path = ""
 
 date_file_4 = ""
-file_path_4 = ""
+home_4_file_path = ""
 
 date_file_5 = ""
-file_path_5 = ""
-
+home_5_file_path = ""
+ 
 date_file_6 = ""
-file_path_6 = ""
-
-date_file_7 = ""
-file_path_7 = ""
-
-date_file_8 = ""
-file_path_8 = ""
-
-date_file_9 = ""
-file_path_9 = ""
+home_6_file_path = ""
