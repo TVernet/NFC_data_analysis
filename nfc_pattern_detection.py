@@ -26,11 +26,15 @@ def extract_blocks(nfc_data):
 # **To be modified by the file(s) to be analyzed**
 def get_hex_data():
     file_paths = [
-        path_nfc_file.home_1_file_path,
-        path_nfc_file.home_2_file_path,
-        path_nfc_file.home_3_file_path,
-        path_nfc_file.home_4_file_path,
-        path_nfc_file.home_5_file_path
+        path_nfc_file.file_path_1,
+        path_nfc_file.file_path_2,
+        path_nfc_file.file_path_3,
+        path_nfc_file.file_path_4,
+        path_nfc_file.file_path_5,
+        path_nfc_file.file_path_6,
+        path_nfc_file.file_path_7,
+        path_nfc_file.file_path_8,
+        path_nfc_file.file_path_9
     ]
     
     return {file_path: extract_blocks(read_nfc_file(file_path)) for file_path in file_paths}
@@ -116,11 +120,15 @@ def analyze_differences(differences):
 def main():
     # **To be modified by the file(s) to be analyzed**
     file_paths = [
-        path_nfc_file.home_1_file_path,
-        path_nfc_file.home_2_file_path,
-        path_nfc_file.home_3_file_path,
-        path_nfc_file.home_4_file_path,
-        path_nfc_file.home_5_file_path
+        path_nfc_file.file_path_1,
+        path_nfc_file.file_path_2,
+        path_nfc_file.file_path_3,
+        path_nfc_file.file_path_4,
+        path_nfc_file.file_path_5,
+        path_nfc_file.file_path_6,
+        path_nfc_file.file_path_7,
+        path_nfc_file.file_path_8,
+        path_nfc_file.file_path_9
     ]
     
     hex_data_dict = get_hex_data()
@@ -136,7 +144,11 @@ def main():
         path_nfc_file.date_file_2,
         path_nfc_file.date_file_3,
         path_nfc_file.date_file_4,
-        path_nfc_file.date_file_5], 1):
+        path_nfc_file.date_file_5,
+        path_nfc_file.date_file_6,
+        path_nfc_file.date_file_7,
+        path_nfc_file.date_file_8,
+        path_nfc_file.date_file_9], 1):
         print(f"        File {i} was used on : {date}")
     
     analyze_differences(differences)
