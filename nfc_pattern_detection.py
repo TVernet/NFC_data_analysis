@@ -65,11 +65,11 @@ def get_sector_block(block_num):
 # Takes the list of differences as input. For each difference, 
 # retrieves the block number and data blocks of the five files, 
 # as well as the corresponding sector and block. Displays 
-# information for each block (hexadecimal and ASCII conversion). 
-# Compares each block byte to detect differences and displays 
-# them. If the bytes are numbers, calculate the numerical 
-# differences and try to interpret bytes as Unix timestamps 
-# and display them.
+# information for each block (hexadecimal, decimal and ASCII 
+# conversion). Compares each block byte to detect differences 
+# and displays them. If the bytes are numbers, calculate the 
+# numerical differences and try to interpret bytes as Unix 
+# timestamps and display them.
 def analyze_differences(differences):
     reported_blocks = set()
     for diff in differences:
