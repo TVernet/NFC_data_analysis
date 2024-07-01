@@ -6,7 +6,7 @@ This project includes a Python script designed to read Flipper Zero's NFC files,
 - Read and parse NFC data files.
 - Compare data blocks across multiple files.
 - Identify and analyze differences in data blocks.
-- Convert and display data in both hexadecimal and ASCII formats.
+- Convert and display data in both hexadecimal, decimal and ASCII formats.
 - Interpret differences as potential numerical values or timestamps.
 
 ## Usage
