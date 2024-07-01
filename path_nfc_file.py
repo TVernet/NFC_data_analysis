@@ -1,23 +1,28 @@
 # Path to all .nfc file.
-# **All scans after the first use were performed 
-# after each new use of the NFC badge.** 
 
-# Path to Maison_1.nfc 
 date_file_1 = ""
-home_1_file_path = ""
-
-# Path to Maison_2.nfc 
+file_path_1 = ""
+ 
 date_file_2 = ""
-home_2_file_path = ""
-
-# Path to Maison_3.nfc - 
+file_path_2 = ""
+ 
 date_file_3 = ""
-home_3_file_path = ""
+file_path_3 = ""
 
-# Path to Maison_4.nfc  
 date_file_4 = ""
-home_4_file_path = ""
+file_path_4 = ""
 
-# Path to Maison_5.nfc  
 date_file_5 = ""
-home_5_file_path = ""
+file_path_5 = ""
+
+date_file_6 = ""
+file_path_6 = ""
+
+date_file_7 = ""
+file_path_7 = ""
+
+date_file_8 = ""
+file_path_8 = ""
+
+date_file_9 = ""
+file_path_9 = ""
