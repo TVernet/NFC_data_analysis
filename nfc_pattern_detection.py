@@ -22,7 +22,8 @@ def extract_blocks(nfc_data):
     return {int(match.group(1)): match.group(2).split() for line in nfc_data.splitlines() if (match := block_pattern.match(line))}
 
 # Retrieves files and boots a dictionary to store 
-# the conversion
+# the conversion.
+# **To be modified by the file(s) to be analyzed**
 def get_hex_data():
     file_paths = [
         path_nfc_file.home_1_file_path,
@@ -129,6 +130,7 @@ def main():
     print("\n   TARGET :")
     print("\n   Detection and analysis of a potential NFC copy protection system")
     print("\n   All scans after the first use were performed after each new use \n   of the NFC badge.\n")
+    # **To be modified by the file(s) to be analyzed**
     for i, date in enumerate([
         path_nfc_file.date_file_1,
         path_nfc_file.date_file_2,
