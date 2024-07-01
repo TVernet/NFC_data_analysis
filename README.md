@@ -15,6 +15,10 @@ This project includes a Python script designed to read Flipper Zero's NFC files,
 2. Modify the file paths in the script to point to your NFC data files.
 3. Run the script to see the analysis results.
 
+## Example Output
+
+![Capture d'écran 2024-07-01 091454](https://github.com/TVernet/NFC_data_analysis/assets/112699327/0e1559c5-c081-4202-b988-db759e026838)
+
 ## Acknowledgments
 
 This project was developed with the assistance of ChatGPT, an AI language model by OpenAI, which provided guidance on code optimization and clarity.
